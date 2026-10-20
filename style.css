@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Space Grotesk', sans-serif ;
 }
 
 
@@ -115,4 +115,281 @@ nav {
     justify-content: space-between;
     margin-bottom: 50px ;
 }
+
+.services {
+    width: 100%;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'search click'
+                         'social-media email'
+                         'creation analytics';
+    gap: 25px;
+}
+
+.section-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+}
+
+.section-header p {
+    max-width: 480px;
+}
+
+/* card search */
+
+.services-search {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom: 5px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    grid-area: search;
+}
+
+.caption-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption-services h2 {
+    max-width: 200px;
+    background-color: #B9FF66;
+    border-radius: 10px;
+}
+
+.service-link {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+}
+
+.icon-search {
+    width: 25px;
+    height: auto;
+}
+
+.illustration-search {
+    width: 45%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* akhir card search */
+
+
+
+/* card click */
+
+.services-click {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom: 5px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B9FF66;
+    grid-area: click;
+}
+
+.caption-click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption-click h2 {
+    max-width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.illustration-click {
+    width: 45%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* akhir card click */
+
+
+/* card social media */
+
+.services-social-media {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom: 5px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    background-color: #191A23;
+    grid-area: social-media;
+}
+
+.caption-social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption-social-media h2 {
+    max-width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cap-link {
+    color: #ffffff;
+}
+
+.illustration-social-media {
+    width: 45%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* akhir card social media */
+
+/* card email */
+
+.services-email {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom: 5px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    grid-area: email;
+}
+
+.caption-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption-email h2 {
+    max-width: 120px;
+    background-color: #B9FF66;
+    border-radius: 10px;
+}
+
+.illustration-email {
+    width: 45%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* akhir card email */
+
+
+/* card creation */
+
+.services-creation {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom: 5px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B9FF66;
+    grid-area: creation;
+}
+
+.caption-creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption-creation h2 {
+    max-width: 120px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.illustration-content-creation {
+    width: 45%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* akhir card content-creation */
+
+
+/* card analytics */
+
+.services-analytics {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 30px;
+    border-bottom: 5px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    background-color: #191A23;
+    grid-area: analytics;
+}
+
+.caption-analytics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption-analytics h2 {
+    max-width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cap-link {
+    color: #ffffff;
+}
+
+.illustration-analytics {
+    width: 45%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* akhir card analytics dan section services */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
