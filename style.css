@@ -377,7 +377,98 @@ nav {
     object-fit: contain;
 }
 
-/* akhir card analytics dan section services */
+.contact-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.caption-contact {
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.caption-contact p {
+    max-width: 450px;
+}
+
+.btn-contact {
+    background-color: #191A23;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 20px;
+}
+.img-contact {
+    max-width: 20%;
+    height: auto;
+}
+
+/* akhir card services */
+
+/* case studies */
+
+.case-header {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.case-header h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.case-header p {
+    max-width: 480px;
+}
+
+.case-container {
+    width: 100%;
+    background-color: #191A23;
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.case-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.case-content-1,
+.case-content-2,
+.case-content-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.case-content p {
+    max-width: 250px;
+}
+
+.case-link {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #B9FF66;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+/* akhir case studies */
+
 
 
 
