@@ -469,6 +469,191 @@ nav {
 
 /* akhir case studies */
 
+/* section working process */
+
+.working-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.working-header {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.working-header h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.working-header p {
+    max-width: 330px;
+}
+
+.consultation {
+    background-color: #B9FF66;
+    border-bottom: 5px solid black;
+    border-radius: 40px;
+    padding: 60px;
+}
+
+.consultation-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+.consul {
+    margin-left: 10px;
+}
+
+.consultation-caption p {
+    max-width: 1000px;
+    margin-top: auto;
+}
+
+/* card research, implementation, monitoring, Reporting, Continual */
+
+.research,
+.implementation,
+.monitoring,
+.reporting,
+.continual {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    border-bottom: 5px solid black;
+    border-radius: 40px;
+    padding: 35px;
+}
+
+.research-caption,
+.implementation-caption,
+.monitoring-caption,
+.reporting-caption,
+.continual-caption {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.research-caption h1,
+.implementation-caption h1,
+.monitoring-caption h1,
+.reporting-caption h1,
+.continual-caption h1 {
+    font-size: 50px;
+}
+
+.research-caption h2,
+.implementation-caption h2,
+.monitoring-caption h2,
+.reporting-caption h2,
+.continual-caption h2 {
+    font-size: 20px;
+}
+
+/* akhir card research, implementation, monitoring, Reporting, Continual*/
+
+.team-header {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.team-header h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.team-header p {
+    max-width: 400px;
+}
+
+/* section team */
+
+.team-content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 'john jane michael'
+                         'emily brian sarah';
+    gap: 25px;
+}
+
+.card-profile-john {
+    grid-area: john;
+}
+
+.card-profile-jane {
+    grid-area: jane;
+}
+
+.card-profile-michael {
+    grid-area: michael;
+}
+
+.card-profile-emily {
+    grid-area: emily;
+}
+
+.card-profile-brian {
+    grid-area: brian;
+}
+
+.card-profile-sarah {
+    grid-area: sarah;
+}
+
+.card-profile {
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    padding: 25px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.card-profile-header {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column ;
+}
+
+.icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.card-john-caption,
+.card-joe-caption,
+.card-micahel-caption,
+.card-emily-caption,
+.card-brian-caption,
+.card-sarah-caption {
+    max-width: 300px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
 
 
 
