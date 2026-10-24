@@ -581,9 +581,11 @@ nav {
 
 /* section team */
 
+
+
 .team-content {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 'john jane michael'
                          'emily brian sarah';
@@ -648,6 +650,327 @@ nav {
     max-width: 300px;
     margin-top: 25px;
 }
+
+.container-btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.btn-team {
+    width: 400px;
+    background-color: #191A23;
+    padding: 25px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* akhir section team  */
+
+
+/* section testimonial  */
+
+
+.testimonials-header {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.testimonials-header h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.testimonials-header p {
+    max-width: 420px;
+}
+
+.testimonial-container {
+  background-color: #191A23;
+  border-radius: 40px;
+  padding: 60px 0 35px;
+}
+
+.testimonial-track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.testimonial-card {
+  flex: 1;
+  color: white;
+}
+
+.testimonial-card blockquote {
+  border: 1px solid #B9FF66;
+  border-radius: 30px;
+  padding: 28px;
+  font-size: 15px;
+  line-height: 1.5;
+  min-height: 132px;
+  position: relative;
+}
+
+/* Ekor balon percakapan */
+.testimonial-card blockquote::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  bottom: -11px;
+  width: 20px;
+  height: 20px;
+  background-color: #191A23;
+  border-right: 1px solid #B9FF66;
+  border-bottom: 1px solid #B9FF66;
+  transform: rotate(45deg);
+}
+
+.testimonial-author {
+  margin: 26px 0 0 44px;
+}
+
+.testimonial-author h3 {
+  color: #B9FF66;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.testimonial-author p {
+  color: white;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.testimonial-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 60px;
+}
+
+.testimonial-navigation button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.testimonial-dots {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.testimonial-dots span {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.testimonial-dots .active {
+  background-color: #B9FF66;
+}
+
+/* section contact */
+
+.contact-header {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.contact-header h2 {
+    background-color: #B9FF66;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.contact-header p {
+    max-width: 320px;
+}
+
+.container-contact {
+    background-color: #f3f3f3;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid #191A23;
+  border-radius: 12px;
+  font: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 18px;
+  background-color: #191A23;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* footer */
+
+.container-footer {
+    background-color: #191A23;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.footer-navigasi {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.container-positivus {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link-footer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 24px;
+}
+
+.nav-link-footer a {
+  color: #ffffff;
+}
+
+.nav-link-footer li {
+    list-style: none;
+}
+
+.container-link {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-social {
+    width: 30%;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-us-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.contact-us-footer h3 {
+    background-color: #B9FF66;
+    color: black;
+    max-width: 120px;
+}
+
+
+
+.container-subscribe {
+    background-color: #292A32;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+
+
+
+.box-email {
+    color: #f3f3f3;
+    border: 1px solid #ffffff;
+    font: inherit;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.email {
+    color: #f3f3f3;
+    font-size: 30px;
+}
+
+.subscribe {
+    color: #000;
+    background-color: #B9FF66;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.footer-copyright {
+    display: flex;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.footer-copyright span {
+    color: #ffffff;
+}
+
+.footer-copyright a {
+    color: #ffffff;
+}
+
+
+
+
+
+
 
 
 
